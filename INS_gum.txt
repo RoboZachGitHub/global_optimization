@@ -1,0 +1,14 @@
+Title: Testing  
+Formula:  Al 5 Au 5     
+Charge: -1 
+Mult: 2  
+nSeeders: 2  
+Box: 20 20 20   
+TooClose: 1.8   
+Generations: 20  
+
+### Gaussian input options
+Route: scf=xqc PBEPBE/lanl2dz opt=(MaxCycles=200,loose)
+altRoute: scf=xqc PBEPBE/3-21g opt(cartesian,MaxCycles=200)
+mem: 1GB
+nproc: 1   

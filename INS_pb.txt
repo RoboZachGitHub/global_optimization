@@ -1,0 +1,10 @@
+Title: test
+#Code: (LJ,g09,nwchem)
+Code: g09
+nSeeds: 2
+nPerSeed: 3
+Generations: 15
+Temp: 100
+StepSize: 0.8
+TooClose: 1.0
+run_ID: B24-

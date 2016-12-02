@@ -1,0 +1,10 @@
+Formula: B 24
+Charge: -1
+Mult: 2
+Route: opt=(MaxCycles=200,loose,cartesian) scf=xqc PBEPBE/3-21g
+altRoute: opt=(MaxCycles=200,loose,cartesian) scf=xqc PBEPBE/3-21g
+mem: 12GB
+nproc: 8
+degen_threshold: 0.0001
+walltime: 14:00:00
+PBS_procs: nodes=1:ppn=8
